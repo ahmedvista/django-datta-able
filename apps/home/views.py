@@ -20,7 +20,7 @@ from django.contrib.auth.decorators import login_required
 
 def index(request):
     context = {"segment": "index"}
-    return render(request, "pages/index.html", context)
+    return render(request, "pages/home.html", context)
 
 
 def tables(request):
