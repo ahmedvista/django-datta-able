@@ -16,7 +16,6 @@
         <li class="nav-item pcoded-menu-caption">
           <label>Navigation</label>
         </li>
-        {{ segment }}
         <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project"
           class="nav-item {% if 'index' in segment %}active{% endif %}">
           {% if request.user.is_superuser %}
@@ -28,16 +27,10 @@
                 class="pcoded-mtext">Dashboard</span>
             </a>
         </li>
-
-
-        <li class="nav-item {% if 'tables' in segment %}active{% endif %}">
-          <a href="{% url 'tables' %}" class="nav-link "><span class="pcoded-micon"><i
-                class="feather icon-server text-c-green"></i></span><span class="pcoded-mtext">Dynamic Tables</span></a>
-        </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a href="/api/product/" class="nav-link "><span class="pcoded-micon"><i
                 class="feather icon-zap text-c-green"></i></span><span class="pcoded-mtext">Generated API</span></a>
-        </li>
+        </li> -->
 
         {% if not request.user.is_authenticated %}
         <li

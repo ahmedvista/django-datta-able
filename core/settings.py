@@ -199,25 +199,25 @@ DYNAMIC_DATATB = {
     ########################################
     # product
     ########################################
-    "Product": "apps.product.models.Product",
-    "Raw": "apps.product.models.Raw",
-    "RawForProduction": "apps.product.models.RawForProduction",
-    "ProductAttr": "apps.product.models.ProductAttr",
+    "product": "apps.product.models.Product",
+    "raw": "apps.product.models.Raw",
+    "rawForProduction": "apps.product.models.RawForProduction",
+    "productAttr": "apps.product.models.ProductAttr",
     ########################################
     # orders
     ########################################
-    "Client": "apps.orders.models.Client",
-    "Supplier": "apps.orders.models.Supplier",
-    "ProductOrder": "apps.orders.models.ProductOrder",
-    "RawOrder": "apps.orders.models.RawOrder",
-    "Budget": "apps.orders.models.Budget",
-    "DamagedRaw": "apps.orders.models.DamagedRaw",
-    "DamagedProduct": "apps.orders.models.DamagedProduct",
+    "client": "apps.orders.models.Client",
+    "supplier": "apps.orders.models.Supplier",
+    "productOrder": "apps.orders.models.ProductOrder",
+    "rawOrder": "apps.orders.models.RawOrder",
+    "budget": "apps.orders.models.Budget",
+    "damagedRaw": "apps.orders.models.DamagedRaw",
+    "damagedProduct": "apps.orders.models.DamagedProduct",
     ########################################
     # stock
     ########################################
-    "ProductStock": "apps.stock.models.ProductStock",
-    "RawStock": "apps.stock.models.RawStock",
+    "productStock": "apps.stock.models.ProductStock",
+    "rawStock": "apps.stock.models.RawStock",
 }
 ########################################
 
